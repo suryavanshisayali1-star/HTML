@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tables in HTML - College Timetable</title>
+    <style>
+        table,td, th
+        {
+            border: 1px solid rgb(12, 12, 12);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>College Time-Table</caption>
+        <tr>
+               <th>Day/Time</th>
+               <th>Monday</th>
+               <th>Tuesday</th>
+               <th>Wednesday</th>
+               <th>Thursday</th>
+               <th>Friday</th>
+               <th>Saturday</th>
+
+        </tr>        
+        <tr>
+            <td>9.45 to 10.45</td>
+            <td>DS</td>
+            <td>CC</td>
+            <td rowspan="2">Practical</td>
+            <td rowspan="2">Placemet Training</td>
+            <td rowspan="2">Practical</td>
+            <td rowspan="2">Lab Work</td>
+        </tr>
+
+        <tr>
+            <td>10.45 to 11.45</td>
+           <td>AI</td>
+           <td>BT</td> 
+        </tr>
+
+        <tr>
+             <td>11.45 to 12.30</td>
+              <td colspan="6">LUNCH BREAK</td>
+        </tr>
+
+        <tr>
+            <td>12.30 to 1.35</td> 
+            <td>DL</td>
+            <td>DS</td>
+            <td>AI</td>
+            <td>BT</td>
+            <td>CC</td>
+            <td rowspan="2">Mentor Meet</td>
+        </tr>
+
+        <tr>
+          <td>1.25 to 2.20</td> 
+            <td>CC</td>
+            <td>AI</td>
+            <td>BT</td>
+            <td>DL</td>
+            <td>DL</td>  
+        </tr>
+
+        <tr>
+          <td>2.20 to 2.30</td>  
+          <td colspan="6">TEA BREAK</td>
+        </tr>
+
+        <tr>
+            <td>2.30 to 3.20</td> 
+           <td rowspan="2">Practical</td> 
+           <td rowspan="2">Project Phase 1</td>
+           <td>Remedial Lecture</td>  
+           <td>DS</td>  
+           <td rowspan="2">Practical</td> 
+           <td rowspan="2">Remedial Lecture</td> 
+        </tr>
+
+        <tr>
+            <td>3.20 to 4.10</td>
+           <td>Lab Work</td>
+           <td>Liabrary Hour</td> 
+        </tr>
+
+    </table>
+</body>
+</html>
